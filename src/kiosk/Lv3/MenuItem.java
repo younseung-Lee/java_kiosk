@@ -1,18 +1,18 @@
-package kiosk.Lv2;
+package kiosk.Lv3;
 
 public class MenuItem {
     private String name;
     private double price;
     private String content;
 
-    public MenuItem(String name, double price, String content) {
+    public MenuItem(String name, double price, String content){
         this.name = name;
-        this.price = price;
         this.content = content;
+        this.price = price;
     }
 
     public void printMenu() {
-        System.out.println(name + " - " + price + "원: " + content);
+        System.out.println(name + "-" + price + "원: " + content);
     }
 
     public String getName() {
@@ -26,5 +26,6 @@ public class MenuItem {
     public String getContent() {
         return content;
     }
+
 
 }

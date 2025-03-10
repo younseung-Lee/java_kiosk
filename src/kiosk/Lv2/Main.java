@@ -21,7 +21,7 @@ public class Main {
                 System.out.println("[ SHAKESHACK MENU ]");
                 for (int i = 0; i < menuItems.size(); i++) {
                     MenuItem menuItem = menuItems.get(i);
-                    System.out.printf("%d. %s | W %.1f | %s%n", i + 1, menuItem.getName(), menuItem.getPrice(), menuItem.getDescription());
+                    System.out.printf("%d. %s | W %.1f | %s%n", i + 1, menuItem.getName(), menuItem.getPrice(), menuItem.getContent());
                 }
                 System.out.println("0. 종료");
                 System.out.print("원하는 숫자를 입력하세요: ");
