@@ -1,9 +1,5 @@
 package kiosk.Lv1;
 
-import kiosk.Lv2.MenuItem;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
