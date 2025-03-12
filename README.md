@@ -37,9 +37,3 @@
 
 ### Lv 6 도전기능
 
-## 🔧 Stack
-- **Language**: JavaScript
-- **Library & Framework** : Node.js
-- **Database** : AWS RDS (MariaDB)
-- **ORM** : Sequelize
-- **Deploy**: AWS EC2
