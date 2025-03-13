@@ -1,5 +1,6 @@
 package kiosk.Lv4_5;
 
+// MenuItem 클래스 (각 메뉴 아이템 관리)
 class MenuItem {
     private final String name;
     private final double price;
@@ -11,8 +12,16 @@ class MenuItem {
         this.content = content;
     }
 
-    public void printMenuItem() {
-        System.out.println(name + " | W " + price + " | " + content);
-    }
+   public String getName(){
+        return name;
+   }
+
+   public double getPrice() {
+        return price;
+   }
+
+   public String getContent(){
+        return content;
+   }
 
 }
