@@ -35,15 +35,15 @@
 - `List<MenuItem>` 은 `Kiosk` 클래스가 관리하기에 적절하지 않으므로 Menu 클래스가 관리하도록 변경합니다.
 - Getter와 Setter 메서드를 사용해 데이터를 관리합니다.
 
-📌 프로그램 흐름
+####📌 프로그램 흐름
 1️⃣ start() 메서드 실행
-↓
+
 2️⃣ 사용자 카테고리 번호 입력 (choice)
-↓
+
 3️⃣ 올바른 번호 선택 시 → selectMenuItem(selectedMenu); 호출
-↓
+
 4️⃣ selectMenuItem() 메서드에서 해당 메뉴 출력 후 선택 진행
-↓
+
 5️⃣ 0 입력 시 → return; 으로 다시 start()로 돌아감
 
 ### Lv 6 도전기능
