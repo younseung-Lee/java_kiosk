@@ -64,5 +64,8 @@ public class Kiosk {
                 scanner.nextLine(); // 버퍼 초기화 후 다시 입력받음
             }
         }
+
+
     }
 }
+

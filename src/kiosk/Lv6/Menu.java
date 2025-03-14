@@ -5,10 +5,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Menu {
-    private String category;
+    private MenuCategory category; // Enum 사용
     private List<MenuItem> menuItems = new ArrayList<>();
 
-    public Menu(String category) {
+
+
+    public Menu(MenuCategory category) {
         this.category = category;
     }
 
@@ -17,7 +19,7 @@ public class Menu {
     }
 
 
-    public String getCategory(){
+    public MenuCategory getCategory(){
         return category;
     }
 
